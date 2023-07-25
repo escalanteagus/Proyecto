@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.titulo{
+    list-style-type: none;
+    background-color: bisque;
+    display: flex;
+
+    justify-content: space-between;
+    
+}
+.navbar{
+    list-style-type: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+.polaroid{
+    width: 20%;
+    background-color: white;
+    margin: 3%;
+    border: 1px solid;
+    justify-content: center;
+}
+.txt{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+.fotos{
+    display: flex;
+}
+.vida{
+    margin: 2rem;
+    padding:1rem;
+}
+.redes{
+    height: 100vh;
+    list-style-type: none;
+    /* display:flex;
+    flex-direction: row;
+    margin: 2rem;
+    padding: 1rem;
+    justify-content: space-evenly; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.instagram{
+    background-color:#833AB4 ;
+}
+.twitter{
+    background-color:#1DA1F2 ;
+}
+.youtube{
+    background-color:#FF0000 ;
+}
+.spotify{
+    background-color:#1DB954 ;
+}
+.redes1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
